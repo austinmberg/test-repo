@@ -1,0 +1,32 @@
+body{
+	padding:10px;
+}
+input[type="text"], input[type="email"], select, textarea {
+      border: 2px solid black;
+      width: 200px;
+}
+td:first-child {
+      text-align: right;
+}
+input[type="submit"] { 
+      border: 2px solid black;
+      border-radius: 3px;
+      width: 150px;
+			margin-left:58px;
+			font-family:inherit;
+			font-size: 17px;
+    }
+
+td{
+	padding:10px;
+}
+select{
+	width: 205px;
+	border-radius:3px;
+	font-family:inherit;
+}
+input[type="radio"]{
+	font-family: inherit; 
+}
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="main.css" >
+	</head>
+<body>
+<form action="fakePage.html" method="GET">
+<table>
+	<tr>
+		<td><label>First Name:</label></td>
+		<td><input type="text" name="textInput"></td>
+	</tr>
+	
+	<tr>
+		<td><label>Last Name:</label></td>
+		<td><input type="text" name="textInput"></td>
+	</tr>
+
+  <tr>
+		<td><label>Email:</label></td>
+		<td><input type="text" name="textInput"></td>
+	</tr>
+
+	<tr>
+		<td><label>Type of License:</label></td>
+		<td><input type="radio" name="radioButtons" value="Personal" checked/>Personal</input>
+				<input type="radio" name="radioButtons" value="Business">Business</input></td>
+	</tr>
+
+	<tr>
+		<td><label>Reason:</label></td>
+		<td><select name="selectReason">
+			<option value="Default" checked/>Select A Reason</option>
+			<option value="Software" checked/>Software Support</option>
+			<option value="Hardware" checked/>Hardware Support</option>
+			<option value="Information" checked/>Information Request</option></td>
+	</tr>		
+			
+	<tr>
+		<td><label>Additional Information:</label></td>
+		<td><textarea name="addInfo"></textarea></td>
+	</tr>	
+				
+	<tr>
+	<td></td>
+		<td><label><input type="checkbox" name="myCheckbox" value="yes">
+		I have read the terms of service</label></td></input>
+	</tr>
+
+	<tr>
+	<td></td>
+		<td><input type="submit" value="Send Request"></input></td>
+	</tr>
+			
+			</table>
+		</form>	
+	</body>
+</html>
+	
