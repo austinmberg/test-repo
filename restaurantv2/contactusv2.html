@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+<link rel="stylesheet" href="restaurantStyles.css"
+h1{
+	text-align:center;
+}
+hr{
+	width:100%;
+}
+table, td, tr{
+	padding-left: 100px;
+	padding-top:15px;
+}
+a{
+	padding-left:25px;
+}
+input[type=text], input[type=submit], select, textarea{
+	border:1px solid black;
+	border-radius:1px;
+	width:200px;
+	
+}
+td:first-child{
+	text-align:right;
+	margin-right:20px;
+}
+input[type=submit]{
+	width:150px;
+	margin-left:50px;
+	background-color:#c1c1c1
+}
+#bottomLine{
+	margin-top:100px;
+}
+p{
+	text-align:center;
+}
+</sty
+<title>
+</title>
+</head>
+<body>
+<h1> Bergs N Brews </h1><hr></hr>
+
+	<a href="home.html" target="_blank">Home</a>
+	<a href="menu.html" target="_blank">Menu<a/>
+	<a href="contactus.html" target="_blank">Contact Us</a><hr></hr>
+	<div class="container">
+		<table>
+		<tr>
+			<td>First Name:</td>
+			<td><input type="text" name="custName"></td>
+		</tr>
+		
+		<tr>
+			<td>Email:</td>
+			<td><input type="text" name="custEmail"></td>
+		</tr>
+
+		<tr>
+			<td>Phone:</td>
+			<td><input type="text" name="phoneNumber"></td>
+		</tr>
+
+		<tr>
+			<td>Reason For Inquiry:</td>
+			<td><select name="reason">
+			<option value="catering"/default>Catering</option>
+			<option value="privateparty">Private Party</option>
+			<option value="feedback">Feedback</option>
+			<option value="Other">Other</option>
+		</tr>
+		
+		<tr>
+			<td>Additional Information:</td>
+			<td><textarea name="addInfo"></textarea>
+		</tr>	
+
+		<tr>
+			<td>Have you been to the restaurant?</td>
+			<td><input type="radio" name="myRadio" value="No">No</input>
+			<input type="radio" name="myRadio" value="Yes">Yes</input></td>
+		</tr>	
+		
+		<tr>
+			<td>Best days to contact you</td>
+				<td><input type="checkbox" name="checkboxOptions" value="Monday">M</input>
+				<input type="checkbox" name="checkboxOptions" value="T">T</input>
+				<input type="checkbox" name="checkboxOptions" value="W">W</input>
+				<input type="checkbox" name="checkboxOptions" value="Th">Th</input>
+				<input type="checkbox" name="checkboxOptions" value="F">F</input></td>
+		</tr>
+
+		<tr>
+		<td></td>
+				<td><input type="submit" value="Submit Request"></input></td>
+		</tr>	
+		</table>
+	</div>	
+</body>
+	
+			
+			
+		
+<footer> 
+	<hr id="bottomLine"></hr>
+	<p>63 Ocean Rd, Greenland, NH 03840</br>
+	(603) 427-1620
+	</p>
+</footer>	
+	</html>
