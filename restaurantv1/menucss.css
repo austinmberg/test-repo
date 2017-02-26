@@ -1,0 +1,37 @@
+h1{
+	text-align:center;
+}
+.col{
+	float:left;
+	width:33%;
+	word-wrap: normal;
+	text-align:center;
+	display: inline-block;
+	
+	
+	
+}
+a{
+	padding-left:25px;
+}
+h1{
+	text-align:center;
+}
+.pwidth{
+	width:200px;
+	display: inline-block;
+	margin:auto;
+
+
+}
+.container{
+text-align:center;
+display: inline-block;
+margin:auto;
+width:100%;
+}
+p{
+	text-align:center;
+}
+
+
