@@ -1,0 +1,18 @@
+h1{
+	text-align:center;
+}
+p{
+	text-align:center;
+}
+a:link{
+	color:black;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	font-weight: bold;
+}
+a:active{
+	text-decoration:none;
+}
