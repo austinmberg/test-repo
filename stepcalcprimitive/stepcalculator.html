@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Step Calculator</title>
+	<h1>My Step Calculator</h1>
+	<meta charset=utf-8 />
+	</head>
+<body>
+
+
+
+<div class="formCalc">
+Starting Number:<input type="number" id="startNumTxt"></input>
+Ending Number:<input type="number" id="endNumTxt"></input>
+Step Number:<input type="number" id="stepNumTxt"></input>
+<input type="button" value="Get Numbers" onClick="showDiv(); funcOne();"></input>
+<input type="button" value="Clear" onClick="resetForm()"></input>
+<div id ="sentence" style ="display:none;"></div>
+<div id="numbers"></div>
+</div>
+
+<script type ="text/javascript">
+var startNum = document.getElementById('startNumTxt');
+var endNum = document.getElementById('endNumTxt');
+var stepNum = document.getElementById('stepNumTxt');
+var x = Number(startNum.value);
+var y = Number (endNum.value);
+var z = Number(stepNum.value);
+
+	
+	
+function funcOne(){
+for(var i = x; i <= y; i += z){
+	if ((z <= 0)){
+	document.getElementById("numbers").innerHTML = "Please enter a step number greater than or equal to 0"}
+	if ((x > y)){
+	document.getElementById("numbers").innerHTML = "Your start number can not be higher than your end number!"}
+	if ((i % 2) == 0) {
+	document.getElementById("numbers").innerHTML += i + "</br>";
+	}
+ }
+	}
+	
+		function showDiv(){
+	document.getElementById("sentence").innerHTML = "The even numbers between " + x + " and " + y + " with of step of " + z + " are:";
+   document.getElementById('sentence').style.display = "block";
+}
+
+function resetForm(){
+}
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+
+
+</html>	
